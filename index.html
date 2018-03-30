@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <form id="login-form" action="/login" method="post">
+    <form id="login-form" action = "confirmation.html" method="post">
       <h1>Welcome</h1>
       <i class="icon-user"></i>
       <input type="text" placeholder="Username" name="user" />
@@ -18,9 +18,11 @@
       <i class="icon-lock"></i>
       <input type="text" placeholder="Password" name="pass" />
       <br />
-      <input class="submit-btn" type="submit" value="Login" />
+      <input class="submit-btn" type="submit" value="Login"/>
     </form>
   </div>
-  <script src="js/scripts.js"></script>
+  <script src="js/scripts.js">
+	/*need function to verify username and password are correct before redirecting to the confirmation page*/
+  </script>
 </body>
 </html>
