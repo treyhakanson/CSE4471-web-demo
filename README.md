@@ -3,3 +3,11 @@
 ## Overview
 
 A web application to demonstrate the project's authentication protocol.
+
+## Setup
+
+Run the following commands to install dependencies:
+
+```
+npm install
+```
